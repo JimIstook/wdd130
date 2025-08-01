@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #114626;
+    --secondary-color: #151873;
+    --accent1-color: #249474;
+    --accent2-color: #3036D9;
+    --heading-font: "Zilla Slab", serif;
+    --body-font: "Zilla Slab", serif;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 300;
+  color: var(--accent1-color);
+}
+
+h1 h2 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+}
