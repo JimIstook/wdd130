@@ -13,15 +13,44 @@ body {
   color: var(--accent1-color);
 }
 
-h1 h2 {
+h1, h2 {
   font-family: var(--heading-font);
   font-weight: 600;
   color: var(--primary-color);
 }
 
 header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  border-bottom: 1px solid black;
+  max-width: 1000px;
   background-color: var(--primary-color);
   color: var(--accent2-color);
+}
+
+.navigate {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navigate a {
+  display: block;
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  padding: 10px 30px;
+  font-family: var(--heading-font);
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.navigate a:hover {
+  color: var(--accent2-color);
+  font-weight: 800;
+  text-decoration: underline;
 }
 
 * {
@@ -40,6 +69,22 @@ nav, p, section, article {
   padding: 8px;
 }
 
+footer {
+  display: grid;
+  background-color: var(--primary-color);
+  grid-template-columns: 4fr 1fr;
+}
+
+.info {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.socialmedia {
+  display: flex;
+}
+
 .socialmedia a {
   text-decoration: none;
 }
@@ -54,7 +99,61 @@ nav, p, section, article {
   height: auto;
 }
 
+.hero h1 {
+  justify-self: center;
+  padding: 10px 50px;
+  background-color: rgb(48, 54, 217, 0.5);
+  border: 2px solid var(--primary-color);
+}
+
+.hero article {
+  display: block;
+}
+
 .hero article img {
   float: right;
   width: 125px;
+}
+
+.history {
+  display: block;
+  border: 2px solid var(--secondary-color);
+}
+
+.history h2 {
+  justify-self: center;
+}
+
+.history div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history div img {
+  width: 125px;
+  height: auto;
+  padding: 20px 0;
+}
+
+.adventure {
+  display: block;
+  border: 2px solid var(--secondary-color);
+}
+
+.adventure h2 {
+  justify-self: center;
+}
+
+.adventure div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.adventure div figure figcaption {
+  justify-self: center;
+}
+
+.adventure div figure img {
+  width: 125px;
+  height: auto;
 }
