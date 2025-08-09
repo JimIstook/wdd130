@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #114626;
-    --secondary-color: #151873;
-    --accent1-color: #249474;
-    --accent2-color: #3036D9;
-    --heading-font: "Zilla Slab", serif;
-    --body-font: "Zilla Slab", serif;
+  --primary-color: #114626;
+  --secondary-color: #151873;
+  --accent1-color: #249474;
+  --accent2-color: #3036D9;
+  --heading-font: "Zilla Slab", serif;
+  --body-font: "Zilla Slab", serif;
 }
 
 body {
