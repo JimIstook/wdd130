@@ -4,8 +4,111 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rapids | White Water Rafting | Contact Us</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;600&display=swap" rel="stylesheet">
+        <meta name="description" content="White water rafting contact us page">
+        <meta name="author" content="Jim Istook">
     </head>
     <body>
-
+        <header>
+            <img src="images/rapids.jpg" alt="The word Rapids written like water over a background of trees, the rafting company logo">
+            <nav>
+                <ul class="navigate">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="company-info">
+                <h1>Rapids</h1>
+                <div class="left">
+                    <h3>Phone Number</h3>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div class="left">
+                    <h3>Email</h3>
+                    <p>RapidsRafting@gmail.com</p>
+                </div>
+                <div class="left">
+                    <h3>Address</h3>
+                    <p>980 Turkey Pen Rd<br>Cragford, AL 63255<br>USA</p>
+                </div>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.0937377559626!2d-85.6666296888895!3d33.199893092129685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888b9cb8cae66a25%3A0x1f9f90d807a97935!2s980%20Turkey%20Pen%20Rd%2C%20Cragford%2C%20AL%2036255!5e1!3m2!1sen!2sus!4v1754951469272!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section>
+                <h1>Employees</h1>
+                <div class="employees">
+                    <figure class="employee">
+                        <img src="images/happy.jpg" alt="placeholder for happy employee">
+                        <figcaption>Employee 1</figcaption>
+                    </figure>
+                    <figure class="employee">
+                        <img src="images/happy.jpg" alt="placeholder for happy employee">
+                        <figcaption>Employee 2</figcaption>
+                    </figure>
+                    <figure class="employee">
+                        <img src="images/happy.jpg" alt="placeholder for happy employee">
+                        <figcaption>Employee 3</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="contact-form">
+                <form>
+                    <div class="form-item column1">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-item column1">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="form-item column1 radio">
+                        <p>Why do you want to contact us?</p>
+                        <div class="radio-item">
+                            <input type="radio" id="inquiry" name="purpose" value="General-Inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="reservation" name="purpose" value="Reservation-Question">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" id="suggestion" name="purpose" value="Website-Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="8" cols="50"></textarea>
+                    </div>
+                    <div class="form-item base">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="info">© 2025 | Rapids | Jim Istook</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.webp" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagtam.com">
+                    <img src="images/instagram.webp" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
     </body>
 </html>
